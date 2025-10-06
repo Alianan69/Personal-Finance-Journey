@@ -1,0 +1,604 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Categories - UK Financial Education Hub</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#10b981',
+                        secondary: '#3b82f6'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    },
+                    fontFamily: {
+                        'pacifico': ['Pacifico', 'serif'],
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="font-pacifico text-2xl text-gray-900">logo</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Categories</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Guides</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Tools</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                </nav>
+                <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-green-600 transition-colors whitespace-nowrap">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative bg-gradient-to-br from-blue-50 to-green-50 py-20 overflow-hidden" style="background-image: url('https://readdy.ai/api/search-image?query=modern%20financial%20planning%20workspace%20with%20clean%20white%20desk%2C%20calculator%2C%20charts%2C%20and%20documents%2C%20soft%20natural%20lighting%2C%20minimalist%20professional%20office%20environment%2C%20subtle%20blue%20and%20green%20tones%2C%20high%20quality%20business%20photography&width=1200&height=600&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-white bg-opacity-85"></div>
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                        Master Your Personal Finance Journey
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                        Explore comprehensive guides across 21 essential financial categories. From debt management to investment strategies, we've got everything you need to take control of your financial future.
+                    </p>
+                    <button class="bg-primary text-white px-8 py-4 !rounded-button text-lg font-semibold hover:bg-green-600 transition-colors whitespace-nowrap">
+                        Start Learning Today
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Financial Categories</h2>
+                    <p class="text-lg text-gray-600">Choose a category to start your financial education journey</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=abstract%20financial%20debt%20management%20concept%20with%20geometric%20patterns%2C%20soft%20blue%20and%20white%20gradient%20background%2C%20minimalist%20design%20with%20subtle%20texture%2C%20professional%20business%20illustration&width=300&height=128&seq=debt001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-bank-card-line text-xl text-blue-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Debt Management</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Helping you take control of debt and improve your financial wellbeing.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=economics%20and%20market%20trends%20visualization%20with%20soft%20green%20gradient%20background%2C%20abstract%20financial%20charts%20and%20graphs%20pattern%2C%20clean%20modern%20design%20with%20geometric%20elements&width=300&height=128&seq=econ001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-green-100 to-green-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-line-chart-line text-xl text-green-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Economics</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Learn key terms and wider trends which influence your personal finances.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=employment%20and%20career%20growth%20concept%20with%20purple%20gradient%20background%2C%20professional%20workplace%20elements%2C%20abstract%20pattern%20design%20with%20briefcase%20and%20growth%20symbols&width=300&height=128&seq=employ001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-purple-100 to-purple-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-briefcase-line text-xl text-purple-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Employment</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Your income, rights, and benefits from work and employment.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=extra%20income%20and%20savings%20concept%20with%20orange%20gradient%20background%2C%20piggy%20bank%20and%20coins%20pattern%2C%20financial%20growth%20symbols%20with%20modern%20abstract%20design&width=300&height=128&seq=income001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-orange-100 to-orange-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-money-pound-circle-line text-xl text-orange-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Extra Income & Savings</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Explore extra income ideas and money-saving tips for everyday life.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=investment%20portfolio%20concept%20with%20teal%20gradient%20background%2C%20stock%20market%20symbols%20and%20growth%20charts%2C%20modern%20financial%20abstract%20pattern%20design&width=300&height=128&seq=invest001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-teal-100 to-teal-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-stock-line text-xl text-teal-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Investments</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Build wealth through stocks, bonds, ISAs and other investment vehicles.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=insurance%20protection%20concept%20with%20indigo%20gradient%20background%2C%20shield%20and%20safety%20symbols%2C%20abstract%20security%20pattern%20with%20modern%20design%20elements&width=300&height=128&seq=insurance001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-indigo-100 to-indigo-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-shield-check-line text-xl text-indigo-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Insurance</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Protect yourself and your family with the right insurance coverage.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=budgeting%20and%20financial%20planning%20with%20pink%20gradient%20background%2C%20calculator%20and%20spreadsheet%20elements%2C%20organized%20money%20management%20pattern%20design&width=300&height=128&seq=budget001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-pink-100 to-pink-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-calculator-line text-xl text-pink-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Budgeting</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Create and maintain budgets that work for your lifestyle and goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=credit%20cards%20and%20payment%20systems%20with%20red%20gradient%20background%2C%20card%20symbols%20and%20payment%20icons%2C%20modern%20financial%20technology%20pattern&width=300&height=128&seq=credit001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-red-100 to-red-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-bank-card-2-line text-xl text-red-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Credit Cards</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Choose the right credit cards and use them responsibly to build credit.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=mortgage%20and%20home%20buying%20with%20yellow%20gradient%20background%2C%20house%20and%20key%20symbols%2C%20property%20investment%20abstract%20pattern%20design&width=300&height=128&seq=mortgage001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-yellow-100 to-yellow-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-home-4-line text-xl text-yellow-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Mortgages</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Navigate the home buying process and find the best mortgage deals.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=pension%20and%20retirement%20planning%20with%20emerald%20gradient%20background%2C%20clock%20and%20savings%20symbols%2C%20long%20term%20financial%20security%20pattern&width=300&height=128&seq=pension001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-emerald-100 to-emerald-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-time-line text-xl text-emerald-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Pensions</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Secure your retirement with workplace and private pension schemes.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=tax%20planning%20and%20HMRC%20with%20slate%20gradient%20background%2C%20document%20and%20percentage%20symbols%2C%20UK%20tax%20system%20abstract%20pattern&width=300&height=128&seq=tax001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-slate-100 to-slate-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-file-text-line text-xl text-slate-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Tax Planning</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Understand UK tax system and optimize your tax efficiency legally.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=banking%20services%20with%20cyan%20gradient%20background%2C%20bank%20building%20and%20card%20symbols%2C%20modern%20financial%20institution%20pattern%20design&width=300&height=128&seq=banking001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-cyan-100 to-cyan-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-bank-line text-xl text-cyan-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Banking</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Choose the right bank accounts and services for your needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=student%20finance%20and%20education%20funding%20with%20violet%20gradient%20background%2C%20graduation%20cap%20and%20book%20symbols%2C%20academic%20financial%20support%20pattern&width=300&height=128&seq=student001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-violet-100 to-violet-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-graduation-cap-line text-xl text-violet-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Student Finance</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Navigate student loans, grants and managing money while studying.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=business%20finance%20and%20entrepreneurship%20with%20amber%20gradient%20background%2C%20briefcase%20and%20growth%20chart%20symbols%2C%20startup%20funding%20pattern%20design&width=300&height=128&seq=business001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-amber-100 to-amber-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-building-line text-xl text-amber-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Business Finance</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Start and grow your business with proper financial planning.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=cryptocurrency%20and%20digital%20assets%20with%20lime%20gradient%20background%2C%20bitcoin%20and%20blockchain%20symbols%2C%20modern%20fintech%20pattern%20design&width=300&height=128&seq=crypto001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-lime-100 to-lime-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-currency-line text-xl text-lime-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Cryptocurrency</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Understand digital currencies and blockchain investment opportunities.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=financial%20planning%20strategy%20with%20rose%20gradient%20background%2C%20compass%20and%20target%20symbols%2C%20goal%20setting%20and%20wealth%20building%20pattern&width=300&height=128&seq=planning001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-rose-100 to-rose-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-compass-3-line text-xl text-rose-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Financial Planning</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Create comprehensive financial plans for your life goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=consumer%20rights%20and%20protection%20with%20sky%20gradient%20background%2C%20shield%20and%20scale%20symbols%2C%20legal%20financial%20protection%20pattern&width=300&height=128&seq=consumer001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-sky-100 to-sky-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-scales-3-line text-xl text-sky-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Consumer Rights</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Know your rights when dealing with financial products and services.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=money%20management%20and%20budgeting%20with%20stone%20gradient%20background%2C%20wallet%20and%20coins%20symbols%2C%20personal%20finance%20organization%20pattern&width=300&height=128&seq=money001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-stone-100 to-stone-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-wallet-3-line text-xl text-stone-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Money Management</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Master the fundamentals of managing your money effectively.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=loans%20and%20borrowing%20with%20neutral%20gradient%20background%2C%20handshake%20and%20document%20symbols%2C%20lending%20and%20credit%20pattern%20design&width=300&height=128&seq=loans001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-neutral-100 to-neutral-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-hand-coin-line text-xl text-neutral-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Loans</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Find the right loans and understand borrowing terms and conditions.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                        <div class="h-32 relative" style="background-image: url('https://readdy.ai/api/search-image?query=retirement%20planning%20with%20zinc%20gradient%20background%2C%20rocking%20chair%20and%20sunset%20symbols%2C%20golden%20years%20financial%20security%20pattern&width=300&height=128&seq=retire001&orientation=landscape'); background-size: cover; background-position: center;">
+                            <div class="absolute inset-0 bg-gradient-to-br from-zinc-100 to-zinc-50 opacity-80"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm">
+                                    <i class="ri-sun-line text-xl text-zinc-600"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="text-lg font-semibold text-gray-900">Retirement Planning</h3>
+                                <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full group-hover:bg-green-600 transition-colors">
+                                    <i class="ri-arrow-right-line text-white text-sm"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm">Plan for a comfortable retirement with proper financial strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Ready to Transform Your Financial Future?</h2>
+                <p class="text-lg text-gray-600 mb-8">
+                    Join thousands of UK residents who have taken control of their finances with our comprehensive guides and expert advice.
+                </p>
+                <button class="bg-primary text-white px-8 py-4 !rounded-button text-lg font-semibold hover:bg-green-600 transition-colors whitespace-nowrap">
+                    Start Your Journey Today
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-pacifico text-xl mb-4">logo</h3>
+                    <p class="text-gray-300 text-sm">
+                        Your trusted partner for UK personal finance education and guidance.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Categories</h4>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Debt Management</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Investments</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mortgages</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Pensions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Guides</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Tools</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Calculator</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Personal Finance Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="category-hover-effects">
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryCards = document.querySelectorAll('.bg-white.rounded-lg.shadow-sm');
+            
+            categoryCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-4px)';
+                    this.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+
+    <script id="smooth-scrolling">
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+</script>
+</body>
+</html>
